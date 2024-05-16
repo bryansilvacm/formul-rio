@@ -1,0 +1,91 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	background-color:#E0F1E7;
+	color:#3C4243;
+	Font-family:Montserrat;
+	display:flex;
+	justify-content:center;
+	font-size:16px;
+}
+form{
+	background-color:white;
+	width:25rem;
+	height:34rem;
+	margin-top:9.5rem;
+	display:flex;
+	flex-direction:column;
+	padding:4rem;
+	justify-content:center;
+	
+}
+
+h1{
+	color:#293C3D;
+	font-weight:bold;
+	font-size:1.6rem;
+}
+input{
+	height:2rem;
+	border-radius:0.5rem;
+	border:1px solid  #0C804B;
+}
+input:hover{
+	border:1.5px solid #11B46A ;
+	background-color:#E0F1E7;
+}
+.nomeesobrenome{
+	display:flex;
+	flex-direction:row;
+	
+	gap:1.7rem;
+}
+#nome{
+	display:flex;
+	flex-direction:row;
+	width:11rem;
+	
+}
+#sobrenome{
+	display:flex;
+	flex-direction:row;
+	width:11rem;
+}
+
+#email{
+	width:24rem;
+}
+#mesagem{
+	height:30rem;
+}
+.concordo{
+	display:flex;
+	flex-direction:row;
+	}
+.botao{
+	background-color:#0C7D69;
+	color:white;
+	height:3rem;
+	width:16rem;
+	margin-left:4.5rem;
+	margin-top:4rem;
+}
